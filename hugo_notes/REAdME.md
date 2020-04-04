@@ -25,7 +25,7 @@ Theme is [notepadium](https://themes.gohugo.io/hugo-notepadium) copy-paste its c
 5) Config hamdan-blog as disqus shortcode in config.toml file.
 6) Folder summary, watch Mike Dane videos for details. 
 
-[Folder Summary](/notes/hugo_notes/img_files/hugo-dir.png)
+[Folder Summary](/hugo_notes/img_files/hugo-dir.png)
 
 7) Write the first post
 ```
