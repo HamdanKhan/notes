@@ -63,3 +63,5 @@ SSL is a bit tricky part,
 
 Redirect config from http to https from [this link](
 https://www.digitalocean.com/community/questions/configure-nginx-ssl-force-http-to-redirect-to-https-force-www-to-non-www-on-serverpilot-free-plan-using-nginx-configuration-file-only)
+
+Visit [the blog](https://hamdan.blog) here you are here.
