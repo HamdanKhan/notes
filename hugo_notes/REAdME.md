@@ -7,13 +7,13 @@
 
 ### Steps
 1) Created a git [repo](https://github.com/HamdanKhan/blog)
-2) Check out blog project localy  
+2) Check out blog project locally  
 ```
 git clone https://github.com/HamdanKhan/blog.git hamdan.blog
 cd ..
 hugo new site hamdan.blog --force
 ```
---force because we already created blog folder from git clone. 
+--force because we already created the blog folder from git clone. 
 
 3) Added a theme
 ```
@@ -25,16 +25,19 @@ Theme is [notepadium](https://themes.gohugo.io/hugo-notepadium) copy-paste its c
 5) Config hamdan-blog as disqus shortcode in config.toml file.
 6) Folder summary, watch Mike Dane videos for details. 
 
-[Folder Summary](/notes/hugo_notes/hugo-dir.png)
+[Folder Summary](/notes/hugo_notes/img_files/hugo-dir.png)
 
-7) Write first post
+7) Write the first post
 ```
-$ hugo new posts/hello-again.md
+$ hugo new posts/bootstrap.md
 ```
 This will print  
 ```
-.../hamdan.blog/content/posts/hello-again.md created
+.../hamdan.blog/content/posts/bootstrap.md created
 ```
+
+[Mark down syntax help](
+https://www.markdownguide.org/basic-syntax/)
 
 8) Setting up nginx on Ubuntu 
 
@@ -50,14 +53,13 @@ sudo ufw allow 'Nginx HTTPS'
 Server config From [Digitalocean's nginx tutorial](https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-18-04)
 
 SSL Config from [Digitalocean's ssl tutorial](
-https://www.digitalocean.com/community/tutorials/how-to-install-an-ssl-certificate-from-a-commercial-certificate-authority#generate-a-csr-and-private-key)
+https://www.digitalocean.com/community/tutorials/how-to-install-an-ssl-certificate-from-a-commercial-certificate-authority#generate-a-csr-and-private-key), 
+[comodosslstore](https://comodosslstore.com/blog/installing-comodo-positivessl-certificate-on-nginx.html), and [nginx](http://nginx.org/en/docs/http/configuring_https_servers.html)
 
-SSL config from [comodosslstore](https://comodosslstore.com/blog/installing-comodo-positivessl-certificate-on-nginx.html)
+SSL is a bit tricky part, 
+1) Generate the keys as per domain 
+2) Give them to certficate provider 
+3) They will email you back some keys which need to configured. 
 
-[Mark down syntax help](
-https://www.markdownguide.org/basic-syntax/)
-
-http://nginx.org/en/docs/http/configuring_https_servers.html
-
-https redirect
-https://www.digitalocean.com/community/questions/configure-nginx-ssl-force-http-to-redirect-to-https-force-www-to-non-www-on-serverpilot-free-plan-using-nginx-configuration-file-only
+Redirect config from http to https from [this link](
+https://www.digitalocean.com/community/questions/configure-nginx-ssl-force-http-to-redirect-to-https-force-www-to-non-www-on-serverpilot-free-plan-using-nginx-configuration-file-only)
