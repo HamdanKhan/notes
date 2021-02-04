@@ -1,8 +1,8 @@
-# Responsive Web Design Certification 
+## Responsive Web Design Certification 
 
 My notes for fcc [curriculum](https://www.freecodecamp.org/learn)
 
-## Basic HTML and HTML5 
+### Basic HTML and HTML5 
 
 * Machine readable 
 * Markup through tags 
@@ -63,17 +63,21 @@ These include main, header, footer, nav, video, article, section and others.
     </label>
     ```
 
-## Basic CSS
+https://guides.github.com/features/mastering-markdown/
+https://www.markdownguide.org/basic-syntax/
 
-## Applied Visual Design 
+### Basic CSS
 
-## Applied Accessibility 
+### Applied Visual Design 
 
-## Responsive Web Design Principles 
+### Applied Accessibility 
 
-## CSS Flexbox 
+### Responsive Web Design Principles 
 
-## CSS Grid 
+### CSS Flexbox 
 
-## Responsive Web Design Projects 
+### CSS Grid 
 
+### Responsive Web Design Projects 
+
+1) [Tribute Page](https://codepen.io/hamdan/full/EyVzZW)
